@@ -14,7 +14,7 @@ def processP1():
       if int(lines[i]) > int(lines[i-1]):
          result +=1
 
-   print("RESULT 1: ", result)
+   return result
 
 
 def processP2():
@@ -26,18 +26,23 @@ def processP2():
       if currWin < forWin:
          result +=1
 
-   print("RESULT 2: ", result)
+   return result
+
 
       
 
 def main():
    readInput(filename)
    # start = timeit.default_timer()
-   processP1()
+   result1 = processP1()
+   result2 = processP2()
+
+   print("Result 1: ", result1)
+   print("Result 2: ", result2)
    # stop = timeit.default_timer()
    # print('Time: ', stop - start)
    
-   processP2()
+   
 
 
 
