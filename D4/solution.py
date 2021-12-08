@@ -63,7 +63,6 @@ class Board:
 
          if bingo == True:
             return self.sumUnmarked()
-            
 
       return -1
 
@@ -98,8 +97,6 @@ class Board:
                result += board[y][x]
 
       return result
-
-
 
    def checkCols(self):
       board = self.board
@@ -137,8 +134,6 @@ class Board:
       mark = self.mark
       for i in range(0, len(mark)):
          print( mark[i] )
-
-
 
 
 def readInput(filename):
@@ -218,10 +213,6 @@ def processP2():
                b = b - 1
 
          b = b + 1
-
-            # b.printBoard()
-            # b.printMark()
-
 
 
 def main():
