@@ -193,7 +193,35 @@ def setBoards():
          boards[len(boards)-1].setNext(int(j))
 
 def processP2():
-   pass
+   readDraws()
+   setBoards()
+
+
+   for d in draws:
+      b = 0
+      while b < len(boards):
+         boards[b].setDraw(d)
+         if boards[b].checkRows() != -1:
+
+            if len(boards) == 1:
+               return boards[b].checkRows() * d
+            else:
+               boards.remove(boards[b])
+               b = b - 1
+
+
+         if boards[b].checkCols() != -1:
+            if len(boards) == 1:
+               return boards[b].checkCols() * d
+            else:
+               boards.remove(boards[b])
+               b = b - 1
+
+         b = b + 1
+
+            # b.printBoard()
+            # b.printMark()
+
 
 
 def main():
