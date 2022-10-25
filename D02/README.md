@@ -1,4 +1,4 @@
-#--- Day 2: Dive! ---
+# --- Day 2: Dive! ---
 ```
 Now, you need to figure out how to pilot this thing.
 
