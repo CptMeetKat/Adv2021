@@ -1,4 +1,5 @@
---- Day 5: Hydrothermal Venture ---
+# --- Day 5: Hydrothermal Venture ---
+```
 You come across a field of hydrothermal vents on the ocean floor! These vents constantly produce large, opaque clouds, so it would be best to avoid them if possible.
 
 They tend to form in lines; the submarine helpfully produces a list of nearby lines of vents (your puzzle input) for you to review. For example:
@@ -65,3 +66,4 @@ Consider all of the lines. At how many points do at least two lines overlap?
 Your puzzle answer was 19676.
 
 Both parts of this puzzle are complete! They provide two gold stars: **
+```
