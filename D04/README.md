@@ -1,4 +1,5 @@
---- Day 4: Giant Squid ---
+# --- Day 4: Giant Squid ---
+```
 You're already almost 1.5km (almost a mile) below the surface of the ocean, already so deep that you can't see any sunlight. What you can see, however, is a giant squid that has attached itself to the outside of your submarine.
 
 Maybe it wants to play bingo?
@@ -67,3 +68,4 @@ Figure out which board will win last. Once it wins, what would its final score b
 Your puzzle answer was 1827.
 
 Both parts of this puzzle are complete! They provide two gold stars: **
+```
