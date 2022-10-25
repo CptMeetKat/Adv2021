@@ -1,4 +1,5 @@
---- Day 2: Dive! ---
+#--- Day 2: Dive! ---
+```
 Now, you need to figure out how to pilot this thing.
 
 It seems like the submarine can take a series of commands like forward 1, down 2, or up 3:
@@ -57,3 +58,4 @@ Using this new interpretation of the commands, calculate the horizontal position
 Your puzzle answer was 2015547716.
 
 Both parts of this puzzle are complete! They provide two gold stars: **
+```
